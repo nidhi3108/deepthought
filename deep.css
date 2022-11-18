@@ -1,0 +1,87 @@
+#logo{
+    position: absolute;
+    width: 90%;
+    height: 49px;
+}
+.container1{
+    width: 20%;
+    margin-top: 40px;
+    border: 2px solid rgb(7, 7, 7);
+    height: 380vh;
+    color: white;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.icon{
+    float: right;
+}
+.containerbox2{
+    width: 60%;
+    height: 380vh;
+    margin-top: 40px;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    box-shadow: 10px 10px rgb(224, 224, 228);
+}
+.maincontainer{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.row1{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.row2{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.row3{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    height: 78vh;
+    color: white;
+    text-align: center;
+}
+.row4{
+    color: white;
+    text-align: center;
+}
+.col4{
+    border: 2px solid black;
+    width: 40%;
+    height: 40vh;
+    margin-left: 32%;
+    /* border: 2px solid blue; */
+    margin-top: 10%;
+}
+.col1{
+    border: 2px solid black;
+    width: 40%;
+    height: 40vh;
+}
+.col2{
+    border: 2px solid black;
+    width: 40%;
+    height: 75vh;
+}
+.botton{
+    margin-top: 290vh;
+    margin-left: 90%;
+}
