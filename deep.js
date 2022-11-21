@@ -7,20 +7,19 @@ console.log(container1Node);
 barNode.addEventListener("click",hideDisplayFunction)
 function hideDisplayFunction()
 {
-    var color=barNode.innerHTML;
-    console.log(color);
+    console.log("hh");
+    var innerTextOfButton=barNode.innerHTML;
+    console.log(innerTextOfButton);
 
-    if(color=="djkj")
+    if(innerTextOfButton=="Click")
     {
-        barNode.style.marginLeft="80px";
-        barNode.style.backgroundColor="aqua";
-        barNode.innerHTML="sjh";
+        container1Node[0].style.left="-180px";
+        barNode.innerHTML="Unclick";
         console.log("text1");
     }
     else{
-        barNode.style.marginLeft="0px";
-        barNode.style.backgroundColor="black";
-        barNode.innerHTML="djkj";
+        container1Node[0].style.left="0px";
+        barNode.innerHTML="Click";
         console.log("text");
     }
 }

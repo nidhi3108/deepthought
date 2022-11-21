@@ -2,459 +2,491 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deep</title>
-    <link rel="stylesheet" href="deep.css">
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deep</title>
+  <link rel="stylesheet" href="deep.css">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet" />
 </head>
 
 <body style="color: black;">
-    <!-- section 1 -->
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-            <!-- Toggle button -->
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
+  <!-- section 1 -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
 
-            <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Navbar brand -->
-                <a class="navbar-brand mt-2 mt-lg-0" id="logo" href="#">
-                    <img src="./logo 1.png"
-                        height="15" alt="MDB Logo" loading="lazy" />
-                </a>
-            </div>
-            <!-- Collapsible wrapper -->
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" id="logo" href="#">
+          <img src="./logo 1.png" height="15" alt="MDB Logo" loading="lazy" />
+        </a>
+      </div>
+      <!-- Collapsible wrapper -->
 
-            <!-- Right elements -->
-            <div class="d-flex align-items-center">
-                <!-- Icon -->
-                <a class="text-reset me-3" href="#">
-                    <i class="fas fa-home"></i>
-                </a>
-                <div class="d-flex align-items-center">
-                    <!-- Icon -->
-                    <a class="text-reset me-3" href="#">
-                        <i class="fas fa-tools"></i>
-                    </a>
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <!-- Icon -->
+        <a class="text-reset me-3" href="#">
+          <i class="fas fa-home"></i>
+        </a>
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="text-reset me-3" href="#">
+            <i class="fas fa-tools"></i>
+          </a>
 
-                    <!-- Notifications -->
-                    <div class="dropdown">
-                        <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
-                            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                            <i class="fas fa-bell"></i>
-                            <span class="badge rounded-pill badge-notification bg-danger">1</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
-                            <li>
-                                <a class="dropdown-item" href="#">Some news</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Another news</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Avatar -->
-                    <div class="dropdown">
-                        <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
-                            id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown"
-                            aria-expanded="false">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
-                                height="25" alt="Black and White Portrait of a Man" loading="lazy" />
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
-                            <li>
-                                <a class="dropdown-item" href="#">My profile</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Settings</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Logout</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Right elements -->
-            </div>
-            <!-- Container wrapper -->
+          <!-- Notifications -->
+          <div class="dropdown">
+            <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-bell"></i>
+              <span class="badge rounded-pill badge-notification bg-danger">1</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="#">Some news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Another news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Avatar -->
+          <div class="dropdown">
+            <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
+              role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
+                alt="Black and White Portrait of a Man" loading="lazy" />
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+              <li>
+                <a class="dropdown-item" href="#">My profile</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Settings</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+  <!-- 1st section -->
+  <div class="container1" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
+      <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+          <div class="board">
+            <p>Journey Board
+              
+              <!-- <span class="icon"> -->
+              <!-- <i  class="fas fa-bars " ></i> -->
+              
+              <button id="button" style="margin-left:9em";>Click</button>
+              <!-- </span> -->
+            </p>
+          </div>
+        </nav>
+      </div>
     </nav>
-    <!-- Navbar -->
 
-    <!-- 2nd section -->
-    <div class="maincontainer">
-      <div class="container1">
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
+    <h4 style="float: left; margin-left: 13px; margin-top: -10px;">1.Demo task</h4>
+    <hr style="  margin-top: 90px; width: 50%; margin-left: 90px;">
+    <ul>
+      <li style="  margin-left:90px;">
+        <h5 style="  margin-left:-10vh;">Task Heading 1</h5>
+      </li>
+      <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
+      <li style="  margin-left:90px;">
+        <h5 style="  margin-left:-10vh;">Task Heading 2</h5>
+      </li>
+      <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
+      <li style="  margin-left:90px;">
+        <h5 style="  margin-left:-10vh;">Task Heading 3</h5>
+      </li>
+      <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
+      <li style="  margin-left:90px;">
+        <h5 style="  margin-left:-10vh;">Task Heading 4</h5>
+      </li>
+      <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
+      <li style="  margin-left:90px;">
+        <h5 style="  margin-left:-10vh;">Task Heading 5</h5>
+      </li>
+      <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
+      <li style="  margin-left:90px;">
+        <h5 style="  margin-left:-10vh;">Task Heading 6</h5>
+      </li>
+      <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
+      <li style="  margin-left:90px;">
+        <h5 style="  margin-left:-10vh;">Task Heading 7</h5>
+      </li>
+      <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
+      <li style="  margin-left:90px;">
+        <h5 style="  margin-left:-10vh;">Task Heading 8</h5>
+      </li>
+      <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
+      <li style="  margin-left:90px;">
+        <h5 style="  margin-left:-10vh;">Task Heading 9</h5>
+      </li>
+      <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
+    </ul>
+  </div>
+
+<!-- 2nd section -->
+  <div class="maincontainer">
+    <div class="containerbox2">
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
+        <div class="container-fluid">
+          <nav aria-label="breadcrumb">
+            <h3>You are taking challenges of new project</h3>
+          </nav>
+        </div>
+      </nav>
+      <h1>Demo task</h1>
+      <!-- first row -->
+      <div class="row1">
+        <!-- box1 -->
+        <div class="col1">
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
             <div class="container-fluid">
-              <nav aria-label="breadcrumb" >
-                <div class="board">
-                  <p>Journey Board 
-                    <!-- <i id="bar" class="icon" class="fas fa-bars" style="margin-left:23vh; color: black;"></i> -->
-                    <!-- <span class="icon"> -->
-                    <!-- <i  class="fas fa-bars " ></i> -->
-                    <button id="button">djkj</button>
-                  <!-- </span> -->
-                </p>
-                </div>
+              <nav aria-label="breadcrumb">
+                <h3>Task heading 1</h3>
               </nav>
             </div>
           </nav>
 
-          <h4 style="float: left; margin-left: 13px; margin-top: -10px;">1.Demo task</h4>
-          <hr style="  margin-top: 90px; width: 50%; margin-left: 90px;">
-          <ul >
-            <li style="  margin-left:90px;">
-              <h5 style="  margin-left:-10vh;">Task Heading 1</h5>
-            </li>
-            <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
-            <li style="  margin-left:90px;">
-              <h5 style="  margin-left:-10vh;">Task Heading 2</h5>
-            </li>
-            <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
-            <li style="  margin-left:90px;">
-              <h5 style="  margin-left:-10vh;">Task Heading 3</h5>
-            </li>
-            <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
-            <li style="  margin-left:90px;">
-              <h5 style="  margin-left:-10vh;">Task Heading 4</h5>
-            </li>
-            <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
-            <li style="  margin-left:90px;">
-              <h5 style="  margin-left:-10vh;">Task Heading 5</h5>
-            </li>
-            <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
-            <li style="  margin-left:90px;">
-              <h5 style="  margin-left:-10vh;">Task Heading 6</h5>
-            </li>
-            <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
-            <li style="  margin-left:90px;">
-              <h5 style="  margin-left:-10vh;">Task Heading 7</h5>
-            </li>
-            <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
-            <li style="  margin-left:90px;">
-              <h5 style="  margin-left:-10vh;">Task Heading 8</h5>
-            </li>
-            <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
-            <li style="  margin-left:90px;">
-              <h5 style="  margin-left:-10vh;">Task Heading 9</h5>
-            </li>
-            <hr style="margin-top: 10px; width: 39%; margin-left: 11vh;">
-          </ul>
+
+
+          <div class="container d-flex justify-content-around "
+            style="border: 2px solid rgb(252, 252, 252); width: 47vh;margin-top: -25px; height: 27vh;">
+            <div class="card p-1"
+              style="background-color:rgb(242, 242, 242); width: 62vh; border-radius: 15px; height:26vh; overflow: hidden;">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium exercitationem
+                ducimus possimus! Sunt autem delectus voluptate consequatur odit harum explicabo, earum error nisi amet
+                aperiam voluptates tempora esse nobis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolores odio possimus quidem
+                praesentium dolorum vmnis neque debitis? </p>
+            </div>
+          </div>
+
+          <div class="mt-1" style="float: right; margin-right: 65px; ">
+            <i class="fas fa-angle-down"></i>
+          </div>
+
+
+
+        </div>
+        <!-- box 2 -->
+        <div class="col2">
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
+            <div class="container-fluid">
+              <nav aria-label="breadcrumb">
+                <h3>Task heading 2</h3>
+              </nav>
+            </div>
+          </nav>
+
+
+
+          <div class="heading2container">
+            <div class="component1">
+              <i style="margin-left:20px; margin-top: 7px;" class="fas fa-angle-up"></i>
+              <p style="margin-left:50px; margin-top: 7px;">Thread A</p>
+            </div>
+
+
+
+            <div class="container d-flex justify-content-around mt-4">
+              <div class="card p-1"
+                style="background-color:rgba(216, 215, 215, 0.801); width: 19vh; border-radius: 25px;">
+                <p>Sub Thread 1</p>
+
+                <div class="card border border-1" style="height:6vh; border-radius: 25px;">
+                  <p>Enter text here</p>
+                </div>
+              </div>
+              <div class="card p-1"
+                style="background-color: rgba(216, 215, 215, 0.801); width: 19vh; border-radius: 25px;">
+                <p>Sub Interpretation 1</p>
+                <div class="card border border-1" style="height:6vh; border-radius: 25px;">
+                  <p>Enter text here</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="container d-flex justify-content-around mt-3">
+              <div class="icon " style="margin-left: 25px;">
+                <i class="fas fa-lightbulb"></i>
+                <i class="fas fa-comment-alt"></i>
+              </div>
+
+              <div class="card p-1" style="background-color:rgb(255, 255, 255); width: 18vh; border-radius: 15px;">
+                <p style="margin-right: 7px;">Select Category
+                  <i class="fas fa-angle-down"></i>
+                </p>
+              </div>
+              <div class="card p-1" style="background-color:rgb(255, 255, 255); width: 18vh; border-radius: 15px;">
+                <p>Select Process
+                  <i class="fas fa-angle-down"></i>
+                </p>
+              </div>
+            </div>
+
+
+            <button type="button" class="btn btn-primary mt-3 p-2"
+              style="float: left; border-radius: 15px; margin-left: 25px;"> <i class="fas fa-plus"></i> Sub
+              Thread</button>
+
+            <div class="container d-flex">
+              <div class="card p-1 mt-4"
+                style="background-color:rgba(213, 211, 211, 0.872); width: 49vh; border-radius: 25px;">
+                <p>summary for thread A</p>
+                <div class="card border border-1" style="height:7vh; border-radius: 25px;">
+                  <p>Enter text here</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="container d-flex justify-content-around mt-3">
+
+              <div class="card border border-1 "
+                style="height:6vh; border-radius: 15px; background-color:rgb(253, 253, 247); width: 22vh;">
+                <p style="margin-top:8px;">
+                  <i style="margin-right:5px;" class="fas fa-infinity"></i>
+                  Thread Credit
+                  <i style="margin-left:5px; color: blue;" class="fas fa-edit"></i>
+                </p>
+              </div>
+              <div class="card border border-1"
+                style="height:6vh; border-radius: 15px; background-color:rgb(255, 255, 251); width: 19vh;">
+                <p style="margin-top:8px;">Select Emotion
+                  <i style="margin-right:5px;" class="fas fa-angle-down"></i>
+                </p>
+              </div>
+
+            </div>
+
+
+            <div>
+              <button type="button" class="btn btn-primary mt-3 mr-3 p-2 mb-3"
+                style="float: right; border-radius: 15px; margin-right: 25px;"><i class="fas fa-plus"></i> Sub
+                Thread</button>
+            </div>
+
+
+            <div class="mt-5" style="float: right; margin-right: -75px; ">
+
+              <i style="margin-top: 22px; font-size: 25px;" class="fas fa-sd-card"></i>
+            </div>
+
+
+
+          </div>
+          <i style="float: right; margin-right: 25px; margin-top: 8px; " class="fas fa-angle-down"></i>
+        </div>
       </div>
 
 
-          <!-- container2 -->
-        <div class="containerbox2">
-            <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
-                <div class="container-fluid">
-                  <nav aria-label="breadcrumb">
-                    <h3>You are taking challenges of new project</h3>
-                  </nav>
-                </div>
+      <!-- row2 -->
+      <div class="row2">
+        <div class="col1">
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
+            <div class="container-fluid">
+              <nav aria-label="breadcrumb">
+                <h3>Task heading 3</h3>
               </nav>
-              <h1>Demo task</h1>
-              <!-- first row -->
-                <div class="row1">
-                  <!-- box1 -->
-                    <div class="col1">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
-                            <div class="container-fluid">
-                              <nav aria-label="breadcrumb">
-                               <h3>Task heading 1</h3>
-                              </nav>
-                            </div>
-                          </nav>
+            </div>
+          </nav>
 
 
+          <div class="container d-flex justify-content-around "
+            style="border: 2px solid rgb(252, 252, 252); width: 47vh;margin-top: -25px; height: 27vh;">
+            <div class="card p-1"
+              style="background-color:rgb(242, 242, 242); width: 62vh; border-radius: 15px; height:26vh; overflow: hidden;">
+              <p>Reflect as per given guidelines</p>
+            </div>
+          </div>
 
-                          <div class="container d-flex justify-content-around " style="border: 2px solid rgb(252, 252, 252); width: 47vh;margin-top: -25px; height: 27vh;">
-                            <div class="card p-1" style="background-color:rgb(242, 242, 242); width: 62vh; border-radius: 15px; height:26vh; overflow: hidden;">
-                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium exercitationem ducimus possimus! Sunt autem delectus voluptate consequatur odit harum explicabo, earum error nisi amet aperiam voluptates tempora esse nobis.
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolores odio possimus quidem praesentium dolorum vmnis neque debitis?  </p>
-                            </div>
-                          </div>
-
-                          <div class="mt-1" style="float: right; margin-right: 65px; ">
-                            <i class="fas fa-angle-down"></i>
-                          </div>
-
-
-
-                    </div>
-                          <!-- box 2 -->
-                    <div class="col2">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
-                            <div class="container-fluid">
-                              <nav aria-label="breadcrumb">
-                                <h3>Task heading 2</h3>
-                              </nav>
-                            </div>
-                          </nav>
+          <div class="mt-1" style="float: right; margin-right: 65px; ">
+            <i class="fas fa-angle-down"></i>
+          </div>
 
 
-
-                          <div class="heading2container">
-                            <div class="component1">
-                              <i style="margin-left:20px; margin-top: 7px;" class="fas fa-angle-up"></i>
-                              <p style="margin-left:50px; margin-top: 7px;">Thread A</p>
-                            </div>
-
-
-
-                            <div class="container d-flex justify-content-around mt-4">
-                              <div class="card p-1" style="background-color:rgba(216, 215, 215, 0.801); width: 19vh; border-radius: 25px;">
-                                <p>Sub Thread 1</p>
-      
-                                <div class="card border border-1" style="height:6vh; border-radius: 25px;"><p>Enter text here</p></div>
-                              </div>
-                              <div class="card p-1" style="background-color: rgba(216, 215, 215, 0.801); width: 19vh; border-radius: 25px;">
-                                <p>Sub Interpretation 1</p>
-                                <div class="card border border-1" style="height:6vh; border-radius: 25px;"><p>Enter text here</p></div>
-                              </div>
-                            </div>
-                            
-
-                            <div class="container d-flex justify-content-around mt-3">
-                              <div class="icon " style="margin-left: 25px;">
-                                <i class="fas fa-lightbulb"></i>
-                                <i class="fas fa-comment-alt"></i>
-                              </div>
-
-                              <div class="card p-1" style="background-color:rgb(255, 255, 255); width: 18vh; border-radius: 15px;">
-                                    <p style="margin-right: 7px;">Select Category
-                                      <i class="fas fa-angle-down"></i>
-                                    </p>
-                              </div>
-                              <div class="card p-1" style="background-color:rgb(255, 255, 255); width: 18vh; border-radius: 15px;">
-                                   <p>Select Process
-                                    <i class="fas fa-angle-down"></i>
-                                   </p>
-                              </div>
-                            </div>
-
-
-                               <button type="button" class="btn btn-primary mt-3 p-2" style="float: left; border-radius: 15px; margin-left: 25px;"> <i class="fas fa-plus"></i>  Sub Thread</button>
-
-                             <div class="container d-flex">
-                              <div class="card p-1 mt-4" style="background-color:rgba(213, 211, 211, 0.872); width: 49vh; border-radius: 25px;">
-                                <p>summary for thread A</p>
-                                <div class="card border border-1" style="height:7vh; border-radius: 25px;"><p>Enter text here</p></div>
-                              </div>
-                              </div>
-
-
-                             <div class="container d-flex justify-content-around mt-3">
-                              
-                                <div class="card border border-1 " style="height:6vh; border-radius: 15px; background-color:rgb(253, 253, 247); width: 22vh;">
-                                  <p style="margin-top:8px;">
-                                    <i style="margin-right:5px;" class="fas fa-infinity"></i>
-                                    Thread Credit
-                                    <i style="margin-left:5px; color: blue;" class="fas fa-edit"></i>
-                                  </p>
-                                </div>
-                                <div class="card border border-1" style="height:6vh; border-radius: 15px; background-color:rgb(255, 255, 251); width: 19vh;">
-                                  <p style="margin-top:8px;">Select Emotion
-                                    <i style="margin-right:5px;" class="fas fa-angle-down"></i>
-                                  </p>
-                                </div>
-                              
-                              </div>
-                              
-
-                              <div>
-                                <button type="button" class="btn btn-primary mt-3 mr-3 p-2 mb-3" style="float: right; border-radius: 15px; margin-right: 25px;"><i class="fas fa-plus"></i>  Sub Thread</button>
-                              </div>
-
-
-                              <div class="mt-5" style="float: right; margin-right: -75px; ">
-
-                                <i style="margin-top: 22px; font-size: 25px;" class="fas fa-sd-card"></i>
-                              </div>
-
-
-
-                          </div >
-                          <i  style="float: right; margin-right: 25px; margin-top: 8px; " class="fas fa-angle-down"></i>
-                    </div>
-                </div>
-
-
-             <!-- row2 -->
-                <div class="row2">
-                    <div class="col1">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
-                            <div class="container-fluid">
-                              <nav aria-label="breadcrumb">
-                                <h3>Task heading 3</h3>
-                              </nav>
-                            </div>
-                          </nav>
-
-
-                          <div class="container d-flex justify-content-around " style="border: 2px solid rgb(252, 252, 252); width: 47vh;margin-top: -25px; height: 27vh;">
-                            <div class="card p-1" style="background-color:rgb(242, 242, 242); width: 62vh; border-radius: 15px; height:26vh; overflow: hidden;">
-                                 <p>Reflect as per given guidelines</p>
-                            </div>
-                          </div>
-
-                          <div class="mt-1" style="float: right; margin-right: 65px; ">
-                            <i class="fas fa-angle-down"></i>
-                          </div>
-
-
-                    </div>
-
-                    <div class="col2">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
-                            <div class="container-fluid">
-                              <nav aria-label="breadcrumb">
-                                <h3>Task heading 4</h3>
-                              </nav>
-                            </div>
-                          </nav>
-                          <iframe style="margin-top: -30px;"src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf" width="100%" height="88%" ></iframe>
-
-
-                    </div>
-                </div>
-                
-
-
-                <div class="row3">
-                     
-                       <div class="col2" style="height: 89vh;">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
-                            <div class="container-fluid">
-                              <nav aria-label="breadcrumb">
-                                <h3>Task heading 7</h3>
-                              </nav>
-                            </div>
-                          </nav>
-
-
-                          <div class="heading3container">
-
-                            <div class="component1">
-                              <i style="margin-left:20px; margin-top: 7px;" class="fas fa-angle-up"></i>
-                              <p style="margin-left:50px; margin-top: 7px;">Thread A</p>
-                            </div>
-
-                        <div class="container d-flex justify-content-around mt-3">
-                          <div class="card p-1" style="background-color:rgb(230, 227, 227); width: 35vh; border-radius: 15px; height:7vh;">
-                               <p>Enter Introdunction</p>
-                          </div>
-                        </div>
-
-                        <div class="component1">
-                          <i style="margin-left:20px; margin-top: 7px;" class="fas fa-angle-up"></i>
-                          <p style="margin-left:50px; margin-top: 7px;">Thread A</p>
-                        </div>
-
-                        <div class="container d-flex justify-content-around mt-3">
-                          <div class="card p-1" style="background-color: rgb(235, 235, 231); width: 38vh; border-radius: 25px;">
-                            <p>Example 1</p>
-                            <div class="card border border-1" style="height:6vh; border-radius: 25px;">
-                              <p style="width: 45vh;">Enter text here</p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <button type="button" class="btn btn-primary mt-3 p-2" style="float: left; border-radius: 15px; margin-left: 25px; margin-bottom: 18px;"> <i class="fas fa-plus"></i>  Sub Thread</button>
-
-                        <div class="container d-flex justify-content-around ">
-                          <div class="card p-1" style="background-color: rgb(231, 231, 227); width: 45vh; border-radius: 25px;">
-                            <p>Argument for Thread A</p>
-                            <div class="card border border-1" style="height:6vh; border-radius: 25px;">
-                              <p style="width: 45vh;">Enter text here</p>
-                            </div>
-                          </div>
-                        </div>
-                       
-                        <button type="button" class="btn btn-primary mt-3 mr-3 p-2 mb-3" style="float: right; border-radius: 15px; margin-right: 25px;"><i class="fas fa-plus"></i>  Sub Thread</button>
-                    
-                       <div class="component1" style="margin-top:67px">
-                              <i style="margin-left:20px; margin-top: 7px;" class="fas fa-angle-up"></i>
-                              <p style="margin-left:50px; margin-top: 7px;">Thread A</p>
-                            </div>
-
-                        <div class="container d-flex justify-content-around mt-3">
-                          <div class="card p-1" style="background-color:rgb(230, 230, 227); width: 35vh; border-radius: 15px; height:7vh;">
-                               <p>Enter Conclusion</p>
-                          </div>
-                        </div>
-
-                        <div  style="float: right; margin-right: 45px; margin-top: 10px; ">
-
-                          <i style=" font-size: 25px;" class="fas fa-sd-card"></i>
-                        </div>
-
-                        
-                      </div>
-                      <i  style="float: right; margin-right: 25px; margin-top: 8px; " class="fas fa-angle-down"></i>
-                    </div>
-                  
-                    <div class="col1" style="height: 26vh;">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
-                            <div class="container-fluid">
-                              <nav aria-label="breadcrumb">
-                                <h3>Task heading 8</h3>
-                              </nav>
-                            </div>
-                          </nav>
-
-                          
-                          <div class="container d-flex justify-content-around " style="border: 2px solid rgb(252, 252, 252); width: 47vh;margin-top: -25px; height: 27vh;">
-                            <div class="card p-1" style="background-color:rgb(242, 242, 242); width: 62vh; border-radius: 15px; height:13vh; overflow: hidden;">
-                                 <audio controls autoplay style="align-items:center">
-                                  <source src="horse.ogg" type="audio/ogg">
-                                </audio>
-                            </div>
-                          </div>
-
-
-
-                    </div>
-                    
-                </div>
-
-
-
-                <div class="row4">
-                    <div class="col4">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
-                            <div class="container-fluid">
-                              <nav aria-label="breadcrumb">
-                                <h3>Task heading 9</h3>
-                              </nav>
-                            </div>
-                          </nav>
-
-                          <iframe style=" margin-top: -48px; width: 48vh;"width="560" height="315" src="https://www.youtube.com/embed/FydQ2VDUTZk" title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-                    </div>
-                </div>
         </div>
 
+        <div class="col2">
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
+            <div class="container-fluid">
+              <nav aria-label="breadcrumb">
+                <h3>Task heading 4</h3>
+              </nav>
+            </div>
+          </nav>
+          <iframe style="margin-top: -30px;"
+            src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf" width="100%"
+            height="88%"></iframe>
 
+
+        </div>
+      </div>
+
+
+
+      <div class="row3">
+
+        <div class="col2" style="height: 89vh;">
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
+            <div class="container-fluid">
+              <nav aria-label="breadcrumb">
+                <h3>Task heading 7</h3>
+              </nav>
+            </div>
+          </nav>
+
+
+          <div class="heading3container">
+
+            <div class="component1">
+              <i style="margin-left:20px; margin-top: 7px;" class="fas fa-angle-up"></i>
+              <p style="margin-left:50px; margin-top: 7px;">Thread A</p>
+            </div>
+
+            <div class="container d-flex justify-content-around mt-3">
+              <div class="card p-1"
+                style="background-color:rgb(230, 227, 227); width: 35vh; border-radius: 15px; height:7vh;">
+                <p>Enter Introdunction</p>
+              </div>
+            </div>
+
+            <div class="component1">
+              <i style="margin-left:20px; margin-top: 7px;" class="fas fa-angle-up"></i>
+              <p style="margin-left:50px; margin-top: 7px;">Thread A</p>
+            </div>
+
+            <div class="container d-flex justify-content-around mt-3">
+              <div class="card p-1" style="background-color: rgb(235, 235, 231); width: 38vh; border-radius: 25px;">
+                <p>Example 1</p>
+                <div class="card border border-1" style="height:6vh; border-radius: 25px;">
+                  <p style="width: 45vh;">Enter text here</p>
+                </div>
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-primary mt-3 p-2"
+              style="float: left; border-radius: 15px; margin-left: 25px; margin-bottom: 18px;"> <i
+                class="fas fa-plus"></i> Sub Thread</button>
+
+            <div class="container d-flex justify-content-around ">
+              <div class="card p-1" style="background-color: rgb(231, 231, 227); width: 45vh; border-radius: 25px;">
+                <p>Argument for Thread A</p>
+                <div class="card border border-1" style="height:6vh; border-radius: 25px;">
+                  <p style="width: 45vh;">Enter text here</p>
+                </div>
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-primary mt-3 mr-3 p-2 mb-3"
+              style="float: right; border-radius: 15px; margin-right: 25px;"><i class="fas fa-plus"></i> Sub
+              Thread</button>
+
+            <div class="component1" style="margin-top:67px">
+              <i style="margin-left:20px; margin-top: 7px;" class="fas fa-angle-up"></i>
+              <p style="margin-left:50px; margin-top: 7px;">Thread A</p>
+            </div>
+
+            <div class="container d-flex justify-content-around mt-3">
+              <div class="card p-1"
+                style="background-color:rgb(230, 230, 227); width: 35vh; border-radius: 15px; height:7vh;">
+                <p>Enter Conclusion</p>
+              </div>
+            </div>
+
+            <div style="float: right; margin-right: 45px; margin-top: 10px; ">
+
+              <i style=" font-size: 25px;" class="fas fa-sd-card"></i>
+            </div>
+
+
+          </div>
+          <i style="float: right; margin-right: 25px; margin-top: 8px; " class="fas fa-angle-down"></i>
+        </div>
+
+        <div class="col1" style="height: 26vh;">
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
+            <div class="container-fluid">
+              <nav aria-label="breadcrumb">
+                <h3>Task heading 8</h3>
+              </nav>
+            </div>
+          </nav>
+
+
+          <div class="container d-flex justify-content-around "
+            style="border: 2px solid rgb(252, 252, 252); width: 47vh;margin-top: -25px; height: 27vh;">
+            <div class="card p-1"
+              style="background-color:rgb(242, 242, 242); width: 62vh; border-radius: 15px; height:13vh; overflow: hidden;">
+              <audio controls autoplay style="align-items:center">
+                <source src="horse.ogg" type="audio/ogg">
+              </audio>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+
+      <div class="row4">
+        <div class="col4">
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary mb-5">
+            <div class="container-fluid">
+              <nav aria-label="breadcrumb">
+                <h3>Task heading 9</h3>
+              </nav>
+            </div>
+          </nav>
+
+          <iframe style=" margin-top: -48px; width: 48vh;" width="560" height="315"
+            src="https://www.youtube.com/embed/FydQ2VDUTZk" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
-    <button type="button" class="btn btn-primary botton">Next</button>
 
 
-    <script src="deep.js"></script>
+  </div>
+  <button type="button" class="btn btn-primary botton">Next</button>
+
+
+  <script src="deep.js"></script>
 
 </body>
 
