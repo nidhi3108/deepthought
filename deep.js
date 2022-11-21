@@ -4,7 +4,6 @@ console.log(barNode);
 var container1Node=document.getElementsByClassName("container1")
 console.log(container1Node);
 
-
 barNode.addEventListener("click",hideDisplayFunction)
 function hideDisplayFunction()
 {
