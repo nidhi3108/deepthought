@@ -9,16 +9,14 @@
     margin-top: 40px;
     border: 2px solid rgb(7, 7, 7);
     height: 380vh;
-    /* color: white; */
+    
     text-align: center;
 }
 h1{
     text-align: center;
     color: black;
 }
-.icon{
-    float: right;
-}
+
 .containerbox2{
     width: 60%;
     height: 380vh;
@@ -70,7 +68,7 @@ h1{
     height: 40vh;
     margin-left: 32%;
     /* border: 2px solid blue; */
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .col1{
     border: 2px solid black;
